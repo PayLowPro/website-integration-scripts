@@ -1,0 +1,26 @@
+{
+  "domain": "idexxneo.com",
+  "features": [
+    {
+      "id": "updateAmountDueLabel",
+      "title": "Update Amount Due Label",
+      "description": "Changes AMOUNT DUE label to Cash Discounted Total",
+      "scriptFile": "updateAmountDueLabel.js",
+      "placeholders": [
+        {
+          "id": "placeholder1",
+          "default": "Cash Discounted Total",
+          "description": "Text to replace AMOUNT DUE label"
+        }
+      ]
+    },
+    {
+      "id": "applyServiceCharge",
+      "title": "Apply Service Charge",
+      "description": "Applies service charge to all invoice totals",
+      "scriptFile": "applyServiceCharge.js",
+      "placeholders": []
+    }
+  ]
+}
+
